@@ -21,4 +21,4 @@ Or if you haven't setup or installed git on your machine you can use curl to dow
     curl -LO https://github.com/Qiraht/Linux-Mint-20.x-Script/blob/master/gitconf.sh
     sh gitconf.sh
 
-After you the step above, you can git clone this repository
+After you done the step above, you can git clone this repository
