@@ -22,7 +22,7 @@ PPA=(
 )
 
 for repo in ${PPA[@]}
-    do sudo apt add-apt-repository "$repo" -y
+    do sudo add-apt-repository "$repo" -y
 done
 
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' -y
