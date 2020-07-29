@@ -29,6 +29,5 @@ sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal mai
 
 sudo apt update -y
 
-sudo apt install curl -y
 
 clear
