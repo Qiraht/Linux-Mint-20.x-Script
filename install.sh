@@ -33,6 +33,8 @@ ProgramI=(
     evolution
     filelight
     gparted
+    qbittorent
+    xz-utils
 )
 
 for app in ${ProgramI[@]}
