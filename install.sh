@@ -22,7 +22,7 @@ ProgramR=(
 )
 
 for var in ${ProgramR[@]}
-    do sudo apt purge "$name" -y
+    do sudo apt remove "$name" -y
 done
 
 # List Program Installed
@@ -31,7 +31,8 @@ ProgramI=(
     tlpui
     lutris
     evolution
-    ttf-mscorefonts-installer
+    filelight
+    gparted
 )
 
 for app in ${ProgramI[@]}
