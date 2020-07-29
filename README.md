@@ -8,4 +8,15 @@ This Repository contains all the shell script that i use to configure on my Linu
 * Install Apps
 * Install Utility
     - Git Config
-    - Install Scanner
+    - Install Epson L210 Scanner Driver
+
+## How To Use
+You can use this repo by cloning this repository to your machine and start using all the script you needed
+    
+    git clone "https://github.com/Qiraht/Linux-Mint-20.x-Script.git"
+
+Or if you haven't setup or installed git on your machine you can use curl to download **gitconfig.sh** on this repo
+    
+    sudo apt install curl -y
+    curl -LO https://github.com/Qiraht/Linux-Mint-20.x-Script/blob/master/gitconf.sh
+    sh gitconf.sh
