@@ -16,33 +16,35 @@ sudo apt install --reinstall -o Dpkg::Options::="--force-confmiss" grub2-theme-m
 
 # Removing program
 ProgramR=(
-    pidgin
     hexchat
     thunderbird
+    gnote
 )
 
 for var in ${ProgramR[@]}
-    do sudo apt remove "$name" -y
+    do sudo apt remove "$var" -y
 done
 
 # List Program Installed
 ProgramI=(
     tlp
     tlpui
+    wine-devel
     lutris
     evolution
     filelight
     gparted
     qbittorent
-    xz-utils
+    apt-transport-https
+    apt-xapian-index
+    libavcodec-extra
+    codium
 )
 
 for app in ${ProgramI[@]}
     do
-        sudo apt install "$name" -y
+        sudo apt install "$app" -y
 done
-
-sudo apt install --install-recommends winehq-devel
 
 sudo apt install -f -y
 sudo apt autoremove -y
