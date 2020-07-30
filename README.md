@@ -18,7 +18,7 @@ You can use this repo by cloning this repository to your machine and start using
 Or if you haven't setup or installed git on your machine you can use curl to download **gitconfig.sh** on this repo
     
     sudo apt install curl -y
-    curl -LO https://www.github.com/Qiraht/Linux-Mint-20.x-Script/blob/master/gitconf.sh
+    curl -LO https://raw.githubusercontent.com/Qiraht/Linux-Mint-20.x-Script/master/gitconf.sh
     sh gitconf.sh
 
 After you done the step above, you can git clone this repository. And don't forget to change your repository mirror to the fastest one
