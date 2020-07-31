@@ -4,8 +4,6 @@
 # Github : github.com/Qiraht
 #
 
-sudo apt install git -y
-
 # Setting up git
 clear
 echo -e "Setting up git \nInsert your username "
