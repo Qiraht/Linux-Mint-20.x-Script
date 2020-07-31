@@ -6,9 +6,9 @@ This Repository contains all the shell script that i use to configure on my Linu
 * Add PPA Repository
 * Debloat Apps
 * Install Apps
-* Install Utility
+* Utility
     - Git Config
-    - Install Epson L210 Scanner Driver
+    - Epson L210 Scanner Driver
 
 ## How To Use
 You can use this repo by cloning this repository to your machine and start using all the script you needed
