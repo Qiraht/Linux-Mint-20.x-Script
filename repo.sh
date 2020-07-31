@@ -7,9 +7,24 @@
 
 sudo dpkg --add-architecture i386 
 
-wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+# Add Repository key
+# Key Download URL
+Keys=(
+    https://dl.winehq.org/wine-builds/winehq.key
+    https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
+)
 
+# Downloading Key
+for url in ${Keys[@]}
+    do wget -nc "$url"
+done
+
+#Adding Key
+sudo apt-key add *.key
+sudo apt-key add *.gpg
+
+# Add Repository
+# Repository list
 PPA=(
     ppa:graphics-drivers/ppa
     ppa:qbittorrent-team/qbittorrent-stable
@@ -21,6 +36,7 @@ PPA=(
     ppa:lutris-team/lutris
 )
 
+# Adding Repository
 for repo in ${PPA[@]}
     do sudo add-apt-repository "$repo" -y
 done
