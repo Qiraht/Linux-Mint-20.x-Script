@@ -16,7 +16,7 @@ else
     mkdir "$Directory"
 fi
 
-wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz" -p "$Directory"
+wget -nc "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz" -p "$Directory"
 
 Path="$Directory/xdm-setup-7.2.11/"
 
