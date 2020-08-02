@@ -16,12 +16,9 @@ else
     mkdir "$Directory"
 fi
 
-wget -nc "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz" -p "$Directory"
+wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz" -P "$Directory"
 
-Path="$Directory/xdm-setup-7.2.11/"
 
-mkdir $Path
+tar -C $Directory -xf xdm-setup-7.2.11.tar.xz
 
-tar -C $Path -xf xdm-setup-7.2.11.tar.xz
-
-sudo bash $Path/install.sh
+sudo bash $Directory/install.sh
