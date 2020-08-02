@@ -19,7 +19,7 @@ else
 fi
 
 # Download driver
-wget -nc "https://download2.ebz.epson.net/iscan/general/deb/x64/iscan-bundle-2.30.4.x64.deb.tar.gz" -p "$Directory"
+wget -c "https://download2.ebz.epson.net/iscan/general/deb/x64/iscan-bundle-2.30.4.x64.deb.tar.gz" -P "$Directory"
 
 tar -C $Directory -xf iscan-bundle-2.30.4.x64.deb.tar.gz
 
