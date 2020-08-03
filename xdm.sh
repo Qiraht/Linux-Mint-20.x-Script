@@ -6,7 +6,7 @@
 # Script to install XDM
 # On Ubuntu based distro
 
-Directory="$HOME/Downloads/Programs"
+Directory="$HOME/Downloads/Programs/"
 
 if [ -d "$Directory" ] 
 then
@@ -18,7 +18,10 @@ fi
 
 wget -c "https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz" -P "$Directory"
 
+Path="$Directory/xdm-setup-7.2.11"
 
-tar -C $Directory -xf xdm-setup-7.2.11.tar.xz
+mkdir $Path
 
-sudo bash $Directory/install.sh
+tar -C $Path -xf $Directory/xdm-setup-7.2.11.tar.xz
+
+sudo bash $Path/install.sh
