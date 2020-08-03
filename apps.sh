@@ -34,7 +34,7 @@ ProgramI=(
     evolution
     filelight
     gparted
-    qbittorent
+    qbittorrent
     apt-transport-https
     apt-xapian-index
     libavcodec-extra
