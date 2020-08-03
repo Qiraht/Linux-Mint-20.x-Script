@@ -8,7 +8,7 @@
 # Used on Linux Mint 20
 # Can be used on any Debian/Ubuntu based distro
 
-Directory="$HOME/Downloads/Programs"
+Directory="$HOME/Downloads/Programs/"
 
 if [ -d "$Directory" ] 
 then
@@ -21,7 +21,7 @@ fi
 # Download driver
 wget -c "https://download2.ebz.epson.net/iscan/general/deb/x64/iscan-bundle-2.30.4.x64.deb.tar.gz" -P "$Directory"
 
-tar -C $Directory -xf iscan-bundle-2.30.4.x64.deb.tar.gz
+tar -C $Directory -xf $Directory/iscan-bundle-2.30.4.x64.deb.tar.gz
 
 Path="$Directory/iscan-bundle-2.30.4.x64.deb"
 
