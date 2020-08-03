@@ -57,6 +57,7 @@ ProgramI=(
     android-tools-adb
     android-tools-fastboot
     materia-gtk-theme
+    telegram-desktop
 )
 
 for app in ${ProgramI[@]}
