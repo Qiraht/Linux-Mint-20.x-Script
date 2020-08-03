@@ -35,6 +35,7 @@ ProgramI=(
     filelight
     gparted
     qbittorrent
+    cheese
     apt-transport-https
     apt-xapian-index
     libavcodec-extra
@@ -53,6 +54,9 @@ ProgramI=(
     libfreetype6:i386
     libdbus-1-3:i386
     libsqlite3-0:i386
+    android-tools-adb
+    android-tools-fastboot
+    materia-gtk-theme
 )
 
 for app in ${ProgramI[@]}
@@ -60,6 +64,7 @@ for app in ${ProgramI[@]}
         sudo apt install "$app" -y
 done
 
+sudo apt install pulseaudio pulseeffects --install-recommend -y
 sudo apt install --install-recommends winehq-staging wine-staging wine-staging-i386 wine-staging-amd64 -y
 
 sudo apt install -f -y
