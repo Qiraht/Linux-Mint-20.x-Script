@@ -34,6 +34,7 @@ PPA=(
     ppa:graphics-drivers/ppa
     ppa:linuxuprising/apps
     ppa:lutris-team/lutris
+    ppa:mikhailnov/pulseeffects
 )
 
 # Adding Repository
