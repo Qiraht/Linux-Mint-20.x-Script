@@ -34,7 +34,6 @@ PPA=(
     ppa:graphics-drivers/ppa
     ppa:linuxuprising/apps
     ppa:lutris-team/lutris
-    ppa:saiarcot895/chromium-beta
 )
 
 # Adding Repository
