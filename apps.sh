@@ -58,6 +58,8 @@ ProgramI=(
     android-tools-fastboot
     materia-gtk-theme
     telegram-desktop
+    pulseaudio
+    pulseeffects 
 )
 
 for app in ${ProgramI[@]}
@@ -65,7 +67,6 @@ for app in ${ProgramI[@]}
         sudo apt install "$app" -y
 done
 
-sudo apt install pulseaudio pulseeffects --install-recommend -y
 sudo apt install --install-recommends winehq-staging wine-staging wine-staging-i386 wine-staging-amd64 -y
 
 sudo apt install -f -y
