@@ -73,5 +73,8 @@ sudo apt install -f -y
 sudo apt autoremove -y
 sudo apt autoclean -y
 
+# flatpak apps
+# on process
+
 clear
 echo "Done :D"
