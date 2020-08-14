@@ -60,7 +60,9 @@ ProgramI=(
     telegram-desktop
     pulseaudio
     pulseeffects 
-)
+    ntfs-3g
+    fuse
+    )
 
 for app in ${ProgramI[@]}
     do
