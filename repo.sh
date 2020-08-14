@@ -35,6 +35,7 @@ PPA=(
     ppa:linuxuprising/apps
     ppa:lutris-team/lutris
     ppa:mikhailnov/pulseeffects
+    ppa:openshot.developers/ppa
 )
 
 # Adding Repository
